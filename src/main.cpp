@@ -15,11 +15,11 @@ Adafruit_PN532 nfc(SCL_PIN, SDA_PIN);
 DHT dht(DHT_PIN, DHT_TYPE);
 
 // --- 2. WiFi 与 OneNet 核心配置 ---
-const char* WIFI_SSID = "zhang";      
-const char* WIFI_PASS = "zhangjiaqian"; 
+const char* WIFI_SSID = "wifi_name";      
+const char* WIFI_PASS = "wifi_passport"; 
 
-const char* ONENET_PID  = "6rvH8d9yQ2"; 
-const char* ONENET_DN   = "esp222";     
+const char* ONENET_PID  = "onenetplart_pid"; 
+const char* ONENET_DN   = "onenet_dn";     
 
 const char* ONENET_TOKEN = "version=2018-10-31&res=products%2F6rvH8d9yQ2%2Fdevices%2Fesp222&et=2090465158&method=md5&sign=aaC%2FTd3CdHWlNTgZIjx0SQ%3D%3D"; 
 
